@@ -1,0 +1,6 @@
+[submodule "cors-anywhere"]
+	path = cors-anywhere
+	url = git@github.com:Erro48/cors-anywhere.git
+[submodule "itd-debugtool"]
+	path = itd-debugtool
+	url = git@github.com:Erro48/itd-debugtool.git

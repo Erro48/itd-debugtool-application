@@ -1,0 +1,25 @@
+version: '3'
+services:
+  tool:
+    image: itd-debugtool
+    expose:
+      - 3000
+    ports:
+      - '3000:3000'
+    depends_on:
+      - proxy
+    networks:
+      - my-network
+
+  proxy:
+    hostname: proxy
+    image: proxy
+    expose:
+      - 8080
+    ports:
+      - '8080:8080'
+    networks:
+      - my-network
+
+networks:
+  my-network:
