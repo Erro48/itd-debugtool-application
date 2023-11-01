@@ -2,6 +2,7 @@ version: '3'
 services:
   tool:
     image: itd-debugtool
+    build: itd-debugtool/
     expose:
       - 3000
     ports:
@@ -14,6 +15,7 @@ services:
   proxy:
     hostname: proxy
     image: proxy
+    build: cors-anywhere/
     expose:
       - 8080
     ports:
