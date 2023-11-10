@@ -1,6 +1,11 @@
 # Interactive TD Debug Tool - Application
 
-## Requirements
+An application created to make it easier to debug and test thing descriptions. It consists of two programs:
+
+- _iTD DebugTool_: the core application that takes care of parsing and debugging of the Thing Descriptions.
+- _cors-anywhere_: proxy server that is responsible for managing cors policies (this project it's a fork from [Rob--W project](https://github.com/Rob--W/cors-anywhere))
+
+To see further details on the projects, check out the relative repositories.
 
 ## Installation
 
